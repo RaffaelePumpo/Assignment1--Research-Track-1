@@ -88,7 +88,7 @@ def find_silver_token():
 
 def find_golden_token():
     """
-    Function to find the closest token silver that has not a silver token close
+    Function to find the closest golden token that has not a silver token close
 
     Returns:
 	dist (float): distance of the closest token (-1 if no token is detected or if token detected has a silver token close)
@@ -123,6 +123,7 @@ def take_token():
             if R.grab():
                 offset_silver_list.append(offset)               #add the token just taken to the silver list
                 print("Gotcha!")
+                return True
         elif -a_th <= rot_y <= a_th :
             print("Ah, that'll do.")
             drive(70,0.5)
@@ -147,7 +148,7 @@ def release_token():
         elif dist < 1.7*d_th :
             print("I am releasing silver token!!")
             R.release()
-            offset_golden_list.append(offset)                   #add the gold token to the golden list
+            offset_golden_list.append(offset)                   #add the golden token to the golden list
             drive(-40,1)
             turn(10, 1)
             return True
