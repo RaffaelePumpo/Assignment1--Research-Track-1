@@ -11,18 +11,18 @@ Once the dependencies are installed, simply run the `test.py` script to test out
 
 ## Goal of the assignment
 The goal for this assignment is to make a robot that moves silver token close gold token in pairs, as follows:
-![Final_position](link)
+![Final_position](https://github.com/RaffaelePumpo/Assignment1--Research-Track-1/blob/master/Final_position.png)
 
 ## Elements in the project
 ### Arena
 The arena contains 6 silver token in the middle and same numbers of golden token around it, as follows:
-![Initial_position](link)
+![Initial_position](https://github.com/RaffaelePumpo/Assignment1--Research-Track-1/blob/master/Initial_position.png)
 
 ### Robot
 #### Physical structure
 The robot is the following:
 
-![robot](link)
+![robot](https://github.com/RaffaelePumpo/Assignment1--Research-Track-1/blob/master/Robot.png)
 
 It has sensors that allows to detect tokens in front of it.
 
@@ -32,7 +32,7 @@ It has sensors that allows to detect tokens in front of it.
 The  __*main*__    has been implemented in the simplest way, calling, alternatively, only two functions. This choice makes the code more readable and allows a easier test of the functions used.
 Thanks to a flowchart can be described the general structure of the code:
 
-![Flowchart](link)
+![Flowchart](https://github.com/RaffaelePumpo/Assignment1--Research-Track-1/blob/master/Flowchart.png)
 
 #### 
 The function implemented *check_offset* allows to check the offset of the token seen by the robot indifferently between silver and golden. It checks if the token is already presents in the lists, in that case the token has been moved before, for the silver ones, or it has already a silver token close it, for the golden ones.
