@@ -22,7 +22,7 @@ The arena contains 6 silver token in the middle and same numbers of golden token
 #### Physical structure
 The robot is the following:
 
-![robot](https://github.com/RaffaelePumpo/Assignment1--Research-Track-1/blob/master/Robot.png)
+![robot](https://github.com/RaffaelePumpo/Assignment1--Research-Track-1/blob/master/robot.png)
 
 It has sensors that allows to detect tokens in front of it.
 
